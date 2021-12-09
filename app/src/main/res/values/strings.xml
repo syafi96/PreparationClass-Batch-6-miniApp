@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">miniApps</string>
+    <string name="help">
+        By clicking Agree &amp; Join, you agree the LinkedIn  <a href="https://www.google.com/?hl=id">User \nAgreement</a>
+        ,<a href="https://www.google.com/?hl=id">Privacy Policy</a>, and <a href="https://www.google.com/?hl=id">Cookie Policy</a>
+    </string>
+    <string name="signin">
+        Already on LinkedIn? <b><a href="https://www.google.com/?hl=id">Sign in</a></b>
+    </string>
+    <string name="email_or_phone_number">Email or phone number</string>
+    <string name="make_the_most_of_your_professional_life">Make the most of your professional life</string>
+    <string name="password_6_or_more_characters">Password (6 or more characters)</string>
+    <string name="agree_amp_join"><![CDATA[Agree & Join]]></string>
+    <string name="or">or</string>
+    <string name="join">Join with Google</string>
+</resources>

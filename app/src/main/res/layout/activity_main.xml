@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingTop="160dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bglinked"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="120dp"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/make_the_most_of_your_professional_life"
+        android:textSize="22sp"
+        android:fontFamily="@font/sansregular"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80dp"
+        android:text="@string/email_or_phone_number"
+        android:textSize="12sp"
+        android:fontFamily="@font/sansregular"
+        android:textColor="#666666"/>
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="7sp"
+        android:background="@drawable/txtuser"
+        android:fontFamily="@font/sansregular"
+        android:textColor="@color/black"
+        android:hint="@string/email_or_phone_number"
+        android:textSize="12sp"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80dp"
+        android:text="@string/password_6_or_more_characters"
+        android:textSize="12sp"
+        android:fontFamily="@font/sansregular"
+        android:textColor="#666666"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="7sp"
+        android:background="@drawable/txtuser"
+        android:textColor="@color/black"
+        android:fontFamily="@font/sansregular"
+        android:hint="@string/password_6_or_more_characters"
+        android:textSize="12sp"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="@string/help"
+        android:textSize="8dp"
+        android:fontFamily="@font/sansregular"
+        android:textColor="#666666"/>
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btncustom"
+        android:fontFamily="@font/sansregular"
+        android:text="@string/agree_amp_join"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/sansregular"
+        android:textSize="12sp"
+        android:text="@string/or"/>
+
+    <Button
+            android:id="@+id/joingoole"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btncustom3"
+            android:text="@string/join"
+            android:textAllCaps="false"
+            android:paddingLeft="30dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/bggoogle3"
+            android:textColor="#FF6200EE"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_marginTop="17dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/sansregular"
+        android:textSize="12dp"
+        android:text="@string/signin"/>
+
+</LinearLayout>
+
